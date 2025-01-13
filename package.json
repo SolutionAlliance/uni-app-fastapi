@@ -48,6 +48,7 @@
     "test:mp-weixin": "cross-env UNI_PLATFORM=mp-weixin jest -i"
   },
   "dependencies": {
+    "@climblee/uv-ui": "^1.1.20",
     "@dcloudio/uni-app": "^2.0.2-4040520250103001",
     "@dcloudio/uni-app-plus": "^2.0.2-4040520250103001",
     "@dcloudio/uni-h5": "^2.0.2-4040520250103001",
@@ -68,6 +69,7 @@
     "@dcloudio/uni-stacktracey": "^2.0.2-4040520250103001",
     "@dcloudio/uni-stat": "^2.0.2-4040520250103001",
     "@vue/shared": "^3.0.0",
+    "axios": "^1.7.9",
     "core-js": "^3.8.3",
     "flyio": "^0.6.2",
     "vue": ">= 2.6.14 < 2.7",

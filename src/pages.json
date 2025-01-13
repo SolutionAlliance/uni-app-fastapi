@@ -5,6 +5,18 @@
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
+		},
+		{
+		  "path": "pages/login/login",
+		  "style": {
+		    "navigationBarTitleText": "登录"
+		  }
+		},
+		{
+		  "path": "pages/user-manage/user-manage",
+		  "style": {
+		    "navigationBarTitleText": "用户管理"
+		  }
 		}
 	],
 	"globalStyle": {
@@ -12,5 +24,29 @@
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color":"#666",
+		"selectedColor": "#31C27C",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/home.png",
+				"selectedIconPath": "static/images/home-h.png"
+			},{
+				"text": "登陆",
+				"pagePath": "pages/login/login",
+				"iconPath": "static/images/user.png",
+				"selectedIconPath": "static/images/user.png"
+			},{
+				
+				"text": "用户管理",
+				"pagePath": "pages/user-manage/user-manage",
+				"iconPath": "static/images/user-h.png",
+				"selectedIconPath": "static/images/user-h.png"
+			}
+		]
 	}
 }
