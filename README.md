@@ -6,20 +6,24 @@
 ```
 yarn install
 ```
-
+## web页面运行
+```
+npm run serve    
+```
 ## 微信小程序运行
 ```
 npm run dev:mp-weixin
 ```
 
-### Compiles and hot-reloads for development
+### 运行h5 页面
 ```
-npm run build:h5
+npm run dev:h5
+```
+### 运行阿里云小程序
+```
+npm run dev:mp-alipay
 ```
 
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### 前端UI
 - [uv-ui破釜沉舟之兼容vue3+2、nvue、app、h5、多端小程序的uni-app生态框架，大部分组件基于uView2.x，在经过改进后全面支持vue3，部分组件做了进一步的优化，支持单独导入，方便开发者选择导入需要的组件。](https://www.uvui.cn/components/common.html)
